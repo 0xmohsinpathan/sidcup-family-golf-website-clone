@@ -82,7 +82,7 @@ main{
 /* page 1 */
 
 .page1 h1 {
-    font-size: 6rem;
+    font-size: 10rem;
     position: relative;
 }
 
@@ -97,10 +97,11 @@ main{
 }
 
 .page1 h2{
-    font-size: 1.6rem;
+    font-size: 2.5rem;
     line-height: 4rem;
 }
 
 .page1 p{
-    line-height: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
 }
