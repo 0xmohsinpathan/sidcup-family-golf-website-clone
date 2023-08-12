@@ -13,7 +13,7 @@ body {
 }
 
 /* cursor  */
-.cursor{
+.cursor {
     width: 1.4rem;
     height: 1.4rem;
     background-color: #95c11e;
@@ -23,7 +23,7 @@ body {
     transition: .2s ease-out;
 }
 
-.cursor-shadow{
+.cursor-shadow {
     width: 30rem;
     height: 30rem;
     background-color: #96c11e66;
@@ -83,12 +83,12 @@ video {
 
 /* main content  */
 
-main{
-  position: relative;
-  background-color: #0000006f;
+main {
+    position: relative;
+    background-color: #0000006f;
 }
 
-.page1{
+.page1 {
     height: 100vh;
     width: 100%;
     position: relative;
@@ -117,12 +117,12 @@ main{
     z-index: -1;
 }
 
-.page1 h2{
+.page1 h2 {
     font-size: 2.5rem;
     line-height: 4rem;
 }
 
-.page1 p{
+.page1 p {
     font-size: 1.2rem;
     line-height: 1.8rem;
 }
@@ -130,8 +130,51 @@ main{
 
 /* page 2 */
 
-.page2{
+.page2 {
     width: 100%;
     height: 100vh;
     /* background-color: yellow; */
+}
+
+/* scroll animation */
+
+.scrolls {
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    z-index: 8;
+}
+
+
+
+.scrolls-animation {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 20s linear infinite;
+}
+
+.scrolls h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-size: 7rem;
+    font-weight: 700;
+    margin-right: .6em;
+    color: #000000;
+    -webkit-text-stroke: 2px #ffffff;
+    transition: all linear .3s;
+}
+
+.scrolls h4:hover {
+    color: #95c11e;
+    -webkit-text-stroke: 3px #95c11e;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
 }

@@ -16,8 +16,8 @@ document.addEventListener("mousemove", function (mousePostion) {
     cursorShadow.style.left = mousePostion.x - 200 + "px"
     cursorShadow.style.top = mousePostion.y - 200 + "px"
 
-    cursor.style.left = mousePostion.x + "px"
-    cursor.style.top = mousePostion.y + "px"
+    cursor.style.left = mousePostion.x - 10 + "px"
+    cursor.style.top = mousePostion.y + -10 + "px"
 })
 
 gsap.to("main", {
@@ -25,7 +25,6 @@ gsap.to("main", {
     scrollTrigger: {
         trigger: "main",
         scroller: "body",
-        markers: true,
         start: "top -30%",
         end: "top -80%",
         scrub: 1
