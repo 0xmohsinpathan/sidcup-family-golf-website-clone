@@ -12,6 +12,28 @@ body {
     height: 100%;
 }
 
+/* cursor  */
+.cursor{
+    width: 1.4rem;
+    height: 1.4rem;
+    background-color: #95c11e;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+    transition: .2s ease-out;
+}
+
+.cursor-shadow{
+    width: 30rem;
+    height: 30rem;
+    background-color: #96c11e66;
+    filter: blur(100px);
+    border-radius: 50%;
+    position: fixed;
+    z-index: 90;
+    transition: .4s ease-out;
+}
+
 /* nav-bar section */
 
 nav {
