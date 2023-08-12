@@ -21,6 +21,7 @@ body {
     position: fixed;
     z-index: 99;
     transition: .2s ease-out;
+    pointer-events: none;
 }
 
 .cursor-shadow {
@@ -32,6 +33,7 @@ body {
     position: fixed;
     z-index: 90;
     transition: .4s ease-out;
+    pointer-events: none;
 }
 
 /* nav-bar section */
