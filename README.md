@@ -4,6 +4,8 @@ Sure, I can help you with that. Here is the README.md file for the code you prov
 
 This is a website for a golf course in Sidcup, South East London. The website features a hero image with a video of the course, a navigation bar with links to different pages, a section with information about the course, and a section with a scrolling animation of the different services offered by the course.
 
+demo [here](https://0xmohsinpathan.github.io/sidcup-family-golf-website-clone/).
+
 ## Technologies Used
 
 The website is built using HTML, CSS, and JavaScript. The video is hosted on a third-party server and is loaded using the `<video>` element. The navigation bar is created using flexbox and the scrolling animation is created using CSS animations.
